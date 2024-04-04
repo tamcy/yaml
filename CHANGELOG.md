@@ -1,6 +1,9 @@
 ## 3.1.3-wip
 
 * Require Dart 3.0
+* Surrogates are now allowed in unquoted strings. Characters that requires two code
+  units in UTF-16 (like emojis) in unquoted strings will no longer result in a parse
+  error. 
 
 ## 3.1.2
 
